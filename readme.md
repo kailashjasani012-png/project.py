@@ -68,7 +68,7 @@ This project is great for practicing:
 
 ## Program Execution Screenshot
 
-> Add your screenshot image in project folder with name **output.png**
+![Python](output.png)
 
 ```md
 ![Program Output](./output.png)
