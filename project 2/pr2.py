@@ -7,12 +7,12 @@ while True:
     choice = int(input("Enter your choice :"))
     match choice:
         case 1:
-            rawnumber=int(input("Enter the number of roe for the pattern:"))
+            rawnumber=int(input("Enter the number of raw for the pattern:"))
             for i in range(1,rawnumber+1):
-                for _ in range(1,i+1):
-                    print(" ",end="")
+                for _ in range(1,5-i):
+                     print(" ",end="")
                 for j in range(1,i+1):
-                    print("*",end=" ")
+                     print("*",end=" ")
                 print()
 
                 
